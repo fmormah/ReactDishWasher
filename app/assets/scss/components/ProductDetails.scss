@@ -1,0 +1,52 @@
+.prod-det-left-col{
+    border-right:1px solid $grey;
+    padding-bottom: 40px;
+}
+
+.slick-dots li {
+    margin:0;
+    width: 10px;
+    height: 10px;
+}
+
+.detail-read-more{
+    display: block;
+    font-weight: bold;
+    color: $font-grey;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid$grey;
+    padding: 15px 0;
+    width: calc(100% + 15px);
+    .fa-chevron-right{
+        font-size:23px;
+        margin-right:10px;
+        transition-duration:0.5s;
+    }
+    &:hover{
+        color: #000;
+        .fa-chevron-right{
+            margin-right:5px
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+    }
+}
+
+.details-spec{
+    display: block;
+    color: #000;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid$grey;
+    padding: 15px 0;
+}
+.details-price{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text-red{
+    color:$red
+}
+.text-green{
+    color:$green;
+}

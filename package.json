@@ -68,6 +68,7 @@
     "react-owl-carousel": "^2.3.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^4.2.2",
+    "react-slick": "^0.28.0",
     "react-transition-group": "^2.5.3",
     "redux": "^4.0.5",
     "request": "2.34",

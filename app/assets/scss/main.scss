@@ -6,9 +6,9 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import "fonts";
-
+@import "colors";
 body {
-  color:#141414;
+  color:$font-grey;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
 }
@@ -21,6 +21,15 @@ h1{
   margin:0;
   font-weight: lighter;
 }
-
-@import "templates/*";
+h2{
+  font-size: 22px;
+  font-weight: lighter;
+}
+h3{
+  font-size: 18px;
+  font-weight: lighter;
+}
+p{
+  font-weight:normal;
+}
 @import "components/*";

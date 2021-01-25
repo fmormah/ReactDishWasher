@@ -10,10 +10,7 @@ const Component = (props) => {
     if(didMount === false){
       setMount(true);
       getProducts();
-    }else{
-      
     }
-    console.log("PayLoad: ",payLoad);
   });
 
 
