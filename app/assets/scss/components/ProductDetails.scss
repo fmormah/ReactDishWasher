@@ -1,6 +1,9 @@
 .prod-det-left-col{
     border-right:1px solid $grey;
     padding-bottom: 40px;
+    @include media-breakpoint-down(md) {
+        border:none;
+    }
 }
 
 .slick-dots li {
@@ -49,4 +52,12 @@
 }
 .text-green{
     color:$green;
+}
+.slick-slide {
+    img{
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

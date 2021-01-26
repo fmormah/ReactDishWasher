@@ -23,7 +23,6 @@ const Component = (props) => {
     .then((contents) => {
       console.log(contents);
       setPayLoad(contents)
-      setGotProducts(true);
     })
     .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"));
   }
