@@ -7,14 +7,12 @@ import ProductDetail from '../templates/ProductDetail.jsx';
 
 const Root = () => {
   return (
-
     <Router>
       <Switch>
         <Route exact path="/" component={ProductGrid} />
         <Route exact path="/product/*" component={ProductDetail} />
       </Switch>
     </Router>
-    
   );
 };
 

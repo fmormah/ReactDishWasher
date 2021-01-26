@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useContext, useReducer, useRef } from 'react';
 import ReactDOM from 'react-dom';
-import Slider from "react-slick";
-
 import Carousel from '../components/Carousel.jsx';
 import Specificafions from '../components/Specifications.jsx';
 
@@ -85,27 +83,6 @@ const ProductDetail = () => {
       </div>
     );
   }
-  return (
-    <div>
-      <h1>Lorem</h1>
-      <div className="container">
-        <div className="row">
-          <div className="col-12 col-lg-7 prod-det-left-col">
-            <Carousel />
-            <Specificafions className="d-none d-lg-block" />
-          </div>
-          <div className="col-12 col-lg-5 prod-det-right-col">
-            <div className="details-price">
-              £123
-            </div>
-            <p className="text-red">Lorem</p>
-            <p className="text-green">Lorem</p>
-            <Specificafions className="d-block d-lg-none mt-5" />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 };
 
 export default ProductDetail;

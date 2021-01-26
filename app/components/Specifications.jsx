@@ -1,19 +1,11 @@
 import React, { useState, useEffect, useContext, useReducer, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
- 
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import Slider from "react-slick";
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/pro-regular-svg-icons';
-import { fal } from '@fortawesome/pro-light-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
 
-library.add(fal, far, fas, fab);
+library.add(fas);
 
 const Specifications = (props) => {
 

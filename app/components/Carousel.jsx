@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext, useReducer, useRef} from 'react
 import ReactDOM from 'react-dom';
 import Slider from "react-slick";
 
-
 const Carousel = (props) => {
 
     const settings = {

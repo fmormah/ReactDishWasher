@@ -10,7 +10,6 @@ const ProductGrid = () => {
       <GridItems productsApi={productsApi}  />
     </div>
   );
-
 };
 
 export default ProductGrid;

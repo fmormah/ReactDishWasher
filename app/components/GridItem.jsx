@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext, useReducer, useRef} from 'react';
 import ReactDOM from 'react-dom';
 
-const Component = (props) => {
+const GridItem = (props) => {
 
   const [didMount, setMount] = useState(false);
   const [payLoad, setPayLoad] = useState(void(0));
@@ -12,7 +12,6 @@ const Component = (props) => {
       getProducts();
     }
   });
-
 
   const getProducts = async () => {
     /*** Using CORS Proxy method to get data due to errors occured from a stright fetch (CORS policy: No 'Access-Control-Allow-Origin' header is present) ***/
@@ -79,4 +78,4 @@ const Component = (props) => {
   
 };
 
-export default Component;
+export default GridItem;
