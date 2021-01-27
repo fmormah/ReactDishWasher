@@ -37,12 +37,12 @@ const ProductDetail = () => {
     
     payLoad.additionalServices.optionalServices.map((obj,i)=>{
       servicesArray.push(
-        <p key={i} className="text-red m-0">{obj.title}</p>
+        <p key={i+"-op"} className="text-red m-0">{obj.title}</p>
       );
     });
     payLoad.additionalServices.includedServices.map((obj,i)=>{
       servicesArray.push(
-        <p key={i} className="text-green m-0">{obj}</p>
+        <p key={i+"-is"} className="text-green m-0">{obj}</p>
       );
     });
     return <div>{servicesArray}</div>;
